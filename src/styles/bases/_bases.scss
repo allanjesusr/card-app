@@ -1,0 +1,38 @@
+@import './settings';
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    background-color: #0C0C0C;
+    color: white;
+    list-style: none;
+    padding: 2px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $principal_font;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    @media (min-width: 768px) {
+        width: 50%;
+    } 
+}
+
+ul {
+    padding: 0px;
+}

@@ -1,0 +1,13 @@
+// Normalize 
+@import './bases/normalize';
+
+// Global Settings 
+@import './bases/bases';
+@import './bases/settings';
+
+
+// components
+@import './components/cards/cards';
+@import './components/layouts/Layout';
+@import './components/ui/search';
+
