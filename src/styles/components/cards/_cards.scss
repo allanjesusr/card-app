@@ -61,6 +61,11 @@
         border: 2px solid #FA6010;
         border-radius: 5px;
 
+        &:hover {
+                background-color: darken($color: #FA6010, $amount: 10) ;
+                transition: 0.3s ease;
+        }
+
 }
 
 .list__hqcontainer {

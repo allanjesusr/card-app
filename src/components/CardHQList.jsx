@@ -14,7 +14,7 @@ export const CardHQList = ({ cardType }) => {
     }, []);
 
     return (
-        <ul className='list__hqcontainer'>
+        <ul className='list__hqcontainer '>
             {
                 list.map(card => (
                     <li key={card.id}>
